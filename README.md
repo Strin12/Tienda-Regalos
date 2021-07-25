@@ -8,6 +8,8 @@
 - Se creo completo el crud de marcas(create, update, delete, list)
 - Se creo el servicio de Marcas para consumir el api
 - Se añadieron librerias de assets para el uso de iconos y stilos externos
+- Eliminación del boton buscador
+- Se corrigió las css de Marca
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:
