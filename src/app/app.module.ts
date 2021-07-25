@@ -8,6 +8,8 @@ import { FooterComponent } from './Shared/footer/footer.component';
 import { RegalosComponent } from './Pages/regalos/regalos.component';
 import { AboutComponent } from './Pages/about/about.component';
 import { MarcaComponent } from './Pages/marca/marca.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MarcaComponent } from './Pages/marca/marca.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

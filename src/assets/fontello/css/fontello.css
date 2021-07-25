@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?55380778');
+  src: url('../font/fontello.eot?55380778#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?55380778') format('woff2'),
+       url('../font/fontello.woff?55380778') format('woff'),
+       url('../font/fontello.ttf?55380778') format('truetype'),
+       url('../font/fontello.svg?55380778#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?55380778#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-users-876-xohla:before { content: '\e800'; } /* '' */
+.icon-doc-text-q1:before { content: '\e801'; } /* '' */
+.icon-13r-a-rr-qqq-rrr:before { content: '\e802'; } /* '' */
+.icon-user-23-qwe-asx:before { content: '\e803'; } /* '' */
+.icon-camera-7q2-a:before { content: '\e804'; } /* '' */
+.icon-desktop-wyy:before { content: '\e805'; } /* '' */
+.icon-folder-q1-tw9-12:before { content: '\e806'; } /* '' */
+.icon-trash-9783-29401:before { content: '\e807'; } /* '' */
+.icon-address-book-cvq:before { content: '\e808'; } /* '' */
+.icon-bookmarked-1-s-s:before { content: '\e809'; } /* '' */
+.icon-eye-xsa:before { content: '\e80a'; } /* '' */
+.icon-users-1-1-3-88:before { content: '\e80b'; } /* '' */
+.icon-trash-1xxcvnn:before { content: '\e80c'; } /* '' */
+.icon-basketedt-xxx:before { content: '\e80d'; } /* '' */
+.icon-briefcase-2pq.-2:before { content: '\e80e'; } /* '' */
+.icon-users-2222-sss:before { content: '\e80f'; } /* '' */
+.icon-chart-bar-outline-qww:before { content: '\e810'; } /* '' */
+.icon-wrench-8-16-66:before { content: '\e811'; } /* '' */
+.icon-searcheeddd-11:before { content: '\e812'; } /* '' */
+.icon-plancast-pingui-2:before { content: '\e813'; } /* '' */
+.icon-home-25-1-5:before { content: '\e814'; } /* '' */
+.icon-fireeee-gogo:before { content: '\e815'; } /* '' */
+.icon-bookedddddd:before { content: '\e816'; } /* '' */
+.icon-off-xa-21-a:before { content: '\e817'; } /* '' */
+.icon-archive-ac2-4:before { content: '\e818'; } /* '' */
+.icon-pictureeeessss:before { content: '\e819'; } /* '' */
+.icon-replyyyyy-www:before { content: '\e81a'; } /* '' */
+.icon-exporteeed-9999:before { content: '\e81b'; } /* '' */
+.icon-lock-openeddd-xxaaa:before { content: '\e81c'; } /* '' */
+.icon-locked-xa-1qqq:before { content: '\e81d'; } /* '' */
+.icon-home-1rt1-2:before { content: '\e81e'; } /* '' */
+.icon-police-gia2-q-qqqqq:before { content: '\e82b'; } /* '' */
+.icon-logout-2058-1-0:before { content: '\f02d'; } /* '' */
+.icon-phone-squared-267-1:before { content: '\f098'; } /* '' */
+.icon-gaugeeeddaarr-21:before { content: '\f0e4'; } /* '' */
+.icon-export-alt-z2-3:before { content: '\f14d'; } /* '' */
+.icon-doc-text-invite-xpt:before { content: '\f15c'; } /* '' */
+.icon-bankedpppp-eee:before { content: '\f19c'; } /* '' */
+.icon-binoculars-xw-bbe:before { content: '\f1e5'; } /* '' */
+.icon-angellist-13w-1:before { content: '\f209'; } /* '' */
+.icon-user-plus-12-581:before { content: '\f234'; } /* '' */
+.icon-bluetooth-x-x-x:before { content: '\f293'; } /* '' */
+.icon-user-circle-rnp.1:before { content: '\f2bd'; } /* '' */
+.icon-id-badgeerdp-290:before { content: '\f2c1'; } /* '' */
+.icon-twitter-4-7-000:before { content: '\f309'; } /* '' */
+.icon-renrennnn-222:before { content: '\f33c'; } /* '' */
