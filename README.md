@@ -10,6 +10,7 @@
 - Se añadieron librerias de assets para el uso de iconos y stilos externos
 - Eliminación del boton buscador
 - Se corrigió las css de Marca
+- Se corrigió el error de la pagina de regalos en el inicio
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:
