@@ -10,6 +10,7 @@ import { AboutComponent } from './Pages/about/about.component';
 import { MarcaComponent } from './Pages/marca/marca.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { CategoriaComponent } from './Pages/categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     RegalosComponent,
     AboutComponent,
-    MarcaComponent
+    MarcaComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,

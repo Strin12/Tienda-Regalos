@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Marcas } from '../models/marcas';
-const url = 'http://127.0.0.1:8000/api/';
+const url = 'https://sheltered-scrubland-44821.herokuapp.com/api/';
 @Injectable({
   providedIn: 'root'
 })
