@@ -17,6 +17,7 @@
 - Se creó el servicio de categorías
 - Se creó el modelo de categorías
 - Se creó el CRUD de categorías (create, update, delete, list)
+- Se creó el modelo de distribuidores
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:
