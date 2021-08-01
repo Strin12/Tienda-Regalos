@@ -14,6 +14,9 @@
 - Se instalo SweeetAlert2 para el uso de sus librerias de alertas para una mejor experiencia
 - Se creó la rama David
 - Se creó el Page para las categorías
+- Se creó el servicio de categorías
+- Se creó el modelo de categorías
+- Se creó el CRUD de categorías (create, update, delete, list)
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:

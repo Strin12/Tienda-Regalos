@@ -64,7 +64,7 @@ constructor(private marcas: MarcasService) { }
           Swal.fire({
             position: 'top-end',
             icon: 'success',
-            title: 'El hospital se registro correctamente',
+            title: 'La marca se registro con éxito',
             showConfirmButton: false,
             timer: 1500,
           });
@@ -72,8 +72,9 @@ constructor(private marcas: MarcasService) { }
           from.reset();
 
         });
-    }    
+    }
   }
+
   returnMarca(variable) {
     this.marca.id = variable;
     console.log(variable);
