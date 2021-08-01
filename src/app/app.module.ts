@@ -11,6 +11,7 @@ import { MarcaComponent } from './Pages/marca/marca.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CategoriaComponent } from './Pages/categoria/categoria.component';
+import { DistribuidorComponent } from './Pages/distribuidor/distribuidor.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CategoriaComponent } from './Pages/categoria/categoria.component';
     RegalosComponent,
     AboutComponent,
     MarcaComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    DistribuidorComponent
   ],
   imports: [
     BrowserModule,
