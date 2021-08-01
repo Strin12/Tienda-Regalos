@@ -12,6 +12,7 @@
 - Se corrigió las css de Marca
 - Se corrigió el error de la pagina de regalos en el inicio
 - se instalo SweeetAlert2 para el uso de sus librerias de alertas para una mejor experiencia
+- Se creó la rama David
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:
