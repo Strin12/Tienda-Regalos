@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './Pages/about/about.component';
 import { MarcaComponent } from './Pages/marca/marca.component';
 import { RegalosComponent } from './Pages/regalos/regalos.component';
+import { DistribuidorComponent } from './Pages/distribuidor/distribuidor.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/regalos', pathMatch: 'full' },
@@ -11,6 +12,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'marca', component: MarcaComponent },
   { path: 'categoria', component: CategoriaComponent },
+    { path: 'distribuidor', component: DistribuidorComponent },
+
 ];
 
 @NgModule({

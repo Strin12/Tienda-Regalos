@@ -46,9 +46,9 @@ export class CategoriaComponent implements OnInit {
     if(this.categoria.id) {
       this._categoriaService.update(this.categoria).subscribe(resp => {
         Swal.fire({
-          position: 'top-end',
+          position: 'center',
           icon: 'success',
-          title: 'Se actualizo correctament',
+          title: 'Se actualizo correctamente',
           showConfirmButton: false,
           timer: 1500,
         });
@@ -102,6 +102,6 @@ export class CategoriaComponent implements OnInit {
           this.datos.splice(i, 1);
         });
       }
-    })
+    });
   }
 }

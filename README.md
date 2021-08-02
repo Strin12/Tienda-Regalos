@@ -20,6 +20,7 @@
 - Se creó el modelo de distribuidores
 - Se creó el Page para distribuidores
 - Se creó el servicio de distribuidores
+- Se creó el CRUD de distribuidores (create, update, delete, list)
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:
