@@ -1,1 +1,73 @@
-<p>producto works!</p>
+<br>
+<br>
+<!-- <form class="row g-3" (ngSubmit)="guardar( form )" #form="ngForm">
+    <div class="input">
+        <div class="col-auto">
+            <input [(ngModel)]="producto.nombre" name="nombre" type="text" placeholder="Nombre" class="rk-search-field border">
+            <input [(ngModel)]="producto.precio" name="precio" type="text" placeholder="Precio" class="rk-search-field border">
+            <input [(ngModel)]="producto.codigo" name="codigo" type="text" placeholder="Código" class="rk-search-field border">
+
+        </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3 m-r-10">Guardar</button>
+        <button type="button" class="btn btn-primary mb-3 btn-success" (click)="limpiar()">Limpiar</button>
+
+      </div>
+    </div>
+  </form> -->
+
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3 m-r-10" [routerLink]="['/crearProd']" routerLinkActive="router-link-active" >Nuevo</button>
+  </div>
+
+  <div class="table-responsive m-t-40">
+    <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list" data-page-size="10"
+      *ngIf="!cargando && datos.length > 0">
+      <thead class="table-info">
+        <tr>
+          <th>Id</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Código</th>
+          <th>Marca</th>
+          <th>Categoría</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let datos of datos; let i = index">
+          <td scope="arrow">{{ i+ 1 }}</td>
+          <td>{{datos.nombre}}</td>
+          <td>{{datos.precio}}</td>
+          <td>{{datos.codigo}}</td>
+          <td>{{datos.marca_oi}}</td>
+          <td>
+          <button class="btn btn-info mr-1" data-toggle="modal" data-target="#nuevo">
+              <i class="fa fa-pencil" (click)="returnProducto(datos.id)"></i>
+            </button>
+
+            <button class="btn btn-danger mr-1" (click)="borrar(datos,i)">
+              <i class="fa fa-trash"></i>
+            </button>
+          </td>
+        </tr>
+        </tbody>
+    </table>
+    <div *ngIf="!cargando && datos.length == 0"
+      class="alert alert-warning text-center mt-3 animated fadeIn fast">
+      <h4 class="alert-heading">No hay registros</h4>
+      <p>
+        <i class="fa fa-exclamation fa-2x"></i>
+      </p>
+    </div>
+    <div *ngIf="cargando" class="alert alert-info text-center mt-3 animated fadeIn fast">
+      <h4 class="alert-heading">Cargando</h4>
+      <p>
+        <i class="fa  fa-circle-o-notch"></i>
+      </p>
+      <p class="mb-0">
+        Espere por favor
+      </p>
+    </div>
+  </div>
+

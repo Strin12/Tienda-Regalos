@@ -33,7 +33,6 @@ export class DistribuidorComponent implements OnInit {
   guardar(form: NgForm){
     if(form.invalid){
       Swal.fire({
-        position: 'center',
         icon: 'error',
         title: 'Ha ocurrido un error',
         text: 'Favor de verificar los datos ingresados',
@@ -46,7 +45,6 @@ export class DistribuidorComponent implements OnInit {
     if(this.distribuidor.id){
       this._distribuidorService.update(this.distribuidor).subscribe(resp=>{
         Swal.fire({
-          position: 'center',
           icon: 'success',
           title: 'Se actualizo correctament',
           showConfirmButton: false,
@@ -59,7 +57,6 @@ export class DistribuidorComponent implements OnInit {
     }else{
       this._distribuidorService.insert(this.distribuidor).subscribe(resp => {
         Swal.fire({
-          position: 'center',
           icon: 'success',
           title: 'El distribuidor se registro con éxito',
           showConfirmButton: false,
