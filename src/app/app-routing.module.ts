@@ -1,3 +1,4 @@
+import { ContactoComponent } from './Pages/contacto/contacto.component';
 import { CrearProductoComponent } from './Pages/crear-producto/crear-producto.component';
 import { CategoriaComponent } from './Pages/categoria/categoria.component';
 import { NgModule } from '@angular/core';
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'distribuidor', component: DistribuidorComponent },
   { path: 'productos', component: ProductoComponent },
   { path: 'crearProd', component: CrearProductoComponent },
+  { path: 'mapa', component: ContactoComponent },
 
 
 ];

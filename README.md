@@ -26,6 +26,7 @@
 - Se creó el servicio de productos
 - Se creó el page para la creación de productos
 - Se creó el page de contacto 
+- Se agregaron los scripts necesarios para el contenido del mapa 
 # Uso del proyecto
 - git clone https://github.com/Strin12/Tienda-regalos.git
 - Una vez clonado el proyecto instalar las dependencias de angulas con:

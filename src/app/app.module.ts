@@ -15,6 +15,7 @@ import { DistribuidorComponent } from './Pages/distribuidor/distribuidor.compone
 import { ProductoComponent } from './Pages/producto/producto.component';
 import { CrearProductoComponent } from './Pages/crear-producto/crear-producto.component';
 import { AngularFileUploaderModule } from "angular-file-uploader";
+import { ContactoComponent } from './Pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AngularFileUploaderModule } from "angular-file-uploader";
     CategoriaComponent,
     DistribuidorComponent,
     ProductoComponent,
-    CrearProductoComponent
+    CrearProductoComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
