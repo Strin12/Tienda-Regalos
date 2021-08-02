@@ -24,7 +24,9 @@ export class DistribuidorComponent implements OnInit {
   }
 
   list(){
+    this.cargando = true;
     this._distribuidorService.list().subscribe(resp => {
+      this.cargando = false;
       this.datos = resp;
       console.log(resp);
     })

@@ -14,6 +14,7 @@ import { CategoriaComponent } from './Pages/categoria/categoria.component';
 import { DistribuidorComponent } from './Pages/distribuidor/distribuidor.component';
 import { ProductoComponent } from './Pages/producto/producto.component';
 import { CrearProductoComponent } from './Pages/crear-producto/crear-producto.component';
+import { AngularFileUploaderModule } from "angular-file-uploader";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CrearProductoComponent } from './Pages/crear-producto/crear-producto.co
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFileUploaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

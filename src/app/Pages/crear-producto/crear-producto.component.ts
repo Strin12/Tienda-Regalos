@@ -6,6 +6,7 @@ import { ProductosService } from 'src/app/services/productos.service';
 import Swal from 'sweetalert2';
 import { map } from 'rxjs/operators';
 import { Productos } from 'src/app/models/productos';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -20,7 +21,8 @@ export class CrearProductoComponent implements OnInit {
 
   constructor(private _productoService: ProductosService,
     private _marcaService: MarcasService,
-    private _categoriaService: CategoriasService) { }
+    private _categoriaService: CategoriasService,
+    private router: Router) { }
 
   ngOnInit(): void {
     this.listarCategoria();
@@ -55,11 +57,12 @@ export class CrearProductoComponent implements OnInit {
       this._productoService.insert(this.producto).subscribe(resp => {
         Swal.fire({
           icon: 'success',
-          title: 'El distribuidor se registro con éxito',
+          title: 'El producto se registro con éxito',
           showConfirmButton: false,
           timer: 1500,
         });
         form.reset();
+        this.router.navigateByUrl('/productos');
       });
     }
   }

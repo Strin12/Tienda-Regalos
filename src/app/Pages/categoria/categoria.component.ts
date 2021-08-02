@@ -24,7 +24,9 @@ export class CategoriaComponent implements OnInit {
   }
 
   list(){
+    this.cargando = true;
     this._categoriaService.list().subscribe(resp => {
+      this.cargando = false;
       this.datos = resp;
       console.log(resp);
     });

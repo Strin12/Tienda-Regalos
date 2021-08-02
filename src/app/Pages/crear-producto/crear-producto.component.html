@@ -2,7 +2,6 @@
   <div class="input">
       <div class="col-auto">
           <input [(ngModel)]="producto.nombre" name="nombre" type="text" placeholder="Nombre" class="rk-search-field border">
-          <input [(ngModel)]="producto.imagen" name="imagen" type="text" placeholder="Imagen" class="rk-search-field border">
           <input [(ngModel)]="producto.unidad" name="unidad" type="text" placeholder="Unidad" class="rk-search-field border">
           <input [(ngModel)]="producto.cantidad" name="cantidad" type="text" placeholder="Cantidad" class="rk-search-field border">
       </div>
@@ -11,11 +10,10 @@
         <input [(ngModel)]="producto.cant_max" name="cant_max" type="text" placeholder="Cantidad máxima" class="rk-search-field border">
         <input [(ngModel)]="producto.cant_min" name="cant_min" type="text" placeholder="Cantidad mínima" class="rk-search-field border">
         <input [(ngModel)]="producto.precio" name="precio" type="text" placeholder="Precio" class="rk-search-field border">
-        <input [(ngModel)]="producto.codigo" name="codigo" type="text" placeholder="Código" class="rk-search-field border">
-
      </div>
 
      <div class="col-auto">
+      <input [(ngModel)]="producto.codigo" name="codigo" type="text" placeholder="Código" class="rk-search-field border">
       <select [(ngModel)]="producto.categoria_id" name="categoria_id" placeholder="Categoría" class="rk-search-field border">
         <option value="0" disabled>Categoría</option>
         <option *ngFor="let categoria of categoria; let i = index" value="{{categoria.id}}">{{categoria.nombre}}</option>
